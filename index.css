@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&family=Libre+Baskerville:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+.urbanist-header {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+:root {
+  --primary-bg-color: rgb(5, 56, 73);
+ --primary-grenn: #2B7B4A;
+  --primary-pink: #F28482;
+  --primay-yellow: #F6BD60;
+  --primary-white: #F7EDE2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: frank-new;
+  background-color: var(--primay-yellow);
+
+}
+
+h2,
+h3,
+.craftvilla {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  color: rgb(19, 92, 39);
+}
+
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+
+.navbar {
+  height: 50px;
+  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+
+}
+
+nav ul {
+  display: flex;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(255, 254, 254);
+}
+nav ul li {
+  list-style: none;
+  padding: 10px;
+  height: 100%;
+  border: solid rgb(2, 2, 2);
+}
+
+nav div .item0 {
+  background-color: var(--primary-grenn) ;
+}
+.item1{
+  background-color: var(--primary-pink);
+}
+.item2{
+  background-color: var(--primay-yellow);
+}
+.item3{
+  background: var(--primary-white);
+}
+.item4 {
+background-color: var(--primary-pink);
+}
+
+
+
+
+
+footer {
+  background-color: var(--primary-bg-color);
+}

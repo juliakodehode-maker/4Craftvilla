@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.BG-container{
+    background-color: pink; 
+
+}
+.cards{
+display: flex;
+flex-flow: center center;
+justify-content: space-between;
+}
+
+img{
+    height: 120px;
+    width: 100px;
+
+
+}
+.card{
+    border: 1px solid;
+    width: 180px;
+    height: 400px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+
+}
