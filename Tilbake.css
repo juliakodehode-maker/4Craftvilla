@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Epunda+Slab:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&family=Libre+Baskerville:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+.urbanist-header {
+  font-family: "Urbanist", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --primary-bg-color: rgb(5, 56, 73);
+  --primary-grenn: #2b7b4a;
+  --primary-pink: #f28482;
+  --primay-yellow: #f6bd60;
+  --primary-white: #f7ede2;
+  --primary-blue: cornflowerblue;
+  --pimary--grey: rgb(209, 201, 201)
+
+  --second-green: #a1eca2;
+  --second-pink: #f2bac9;
+  --second-yellow: #c7a337;
+  --second-white: #f2e2ba;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+html {
+  font-size: 16px;
+}
+body {
+  font-family: frank-new;
+}
+h1,
+h2,
+h3 {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgb(214, 49, 195);
+  padding-top: 100px;
+  height: 100px;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 2rem;
+  color: white;
+    border: solid 1px;
+    border-radius: 20px;
+    width: 700px;
+    height: 100%;
+    margin: 50px;
+    padding: 20px;
+    background-color: var(--primary-grenn);
+    display: flex;
+    align-items: center;
+  }
+  
+
+
+.textbox{
+  display: flex;
+  justify-content: center;
+}
+.navbar {
+  background-color: var(--primary-blue);
+  opacity: 0.9;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+}
+
+.container-banner {
+  background-color: #a1eca2;
+  background-image: url("./Asset/flora.png");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+
+nav ul {
+  display: flex;
+}
+a{
+  text-decoration: none;
+  color: rgb(255, 254, 254);
+  
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 10px;
+  height: 40px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item0 {
+  background-color: var(--primary-grenn);
+}
+.item1,
+.verkstedet {
+  background-color: var(--primary-pink);
+}
+.item2 {
+  background-color: var(--primay-yellow);
+}
+.item3 {
+  background: var(--primary-blue);
+}
+.item4,
+button {
+  background-color: var(--second-pink);
+}
+button {
+  margin: 10px;
+  padding: 10px;
+  border: solid var(--primary-pink);
+  border-radius: 50px;
+}
+
+.item0:hover{
+  background-color: #a1eca2;
+  }
+  .item1:hover{
+  background-color: #f2bac9;
+  }
+  .item2:hover{
+  background-color:#f2e2ba
+  }
+  .item3:hover{
+  background-color: aqua;
+  }
+  .item4:hover{
+  background-color:rgb(245, 39, 245)
+  }
+  
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--primary-blue);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form-items{
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  width: 400px;
+  margin: 5px;
+  padding: 5px;
+}
+label{
+  padding: 10px;
+}
+input[type="email"],
+input[type="text"],
+select,
+textarea{
+min-width: 200px;
+width: 200px;
+box-sizing: border-box;
+}
+
+/*
+input[type="email"], input[type="textarea"],select{
+min-width: 200px;
+width: 200px;
+box-sizing: border-box;
+}
+*/
+
+textarea{
+  resize: none;
+}
+
+
+
+button{
+  padding: 10px;
+  color: white;
+  background-color: rgb(214, 49, 195);
+  border-radius: 10px;
+  border: none;
+  margin-top: 25px ;
+}
+
+footer {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-white);
+    height: 100px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-foot1, .container-foot2, .container-foot3{
+  border: solid 1px yellow;
+  height: 90px;
+  margin: 5px;
+  padding: 5px;
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  #icon-foot{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .fa {
+    padding: 7px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  

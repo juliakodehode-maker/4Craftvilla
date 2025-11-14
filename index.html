@@ -3,84 +3,136 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <main>
       <header>
-        <nav>
+        <nav class="navbar">
           <div class="container">
             <ul>
-              <li class="item0" id="0"><a href="#home">Craftvilla</a></li>
-              <li class="item1"><a href="#verksted">Verkstedet</a></li>
-              <li class="item2"><a href="#tilbakemelding/">Tilbakemelding</a></li>
-              <li class="item3"><a href="#galleri">Galleri</a></li>
-              <li class="item4"><a href="#booking">Bestill verkstedet ditt</a></li>
-          </ul>
-        </div>
+              <li class="item0"><a href="#home">Craftvilla</a></li>
+              <li class="item1"><a href="/index.html#verksted">Verkstedet</a></li>
+              <li class="item2">
+                <a href="/Tilbake.html">Tilbakemelding</a>
+              </li>
+              <li class="item3"><a href="/Gallery.html">Galleri</a></li>
+              <li class="item4">
+                <a href="/Booking.html">Bestill verkstedet ditt</a>
+              </li>
+            </ul>
+          </div>
         </nav>
 
-        <div class="banner">
-          <ul>
-            <li><h2>Slipp løs kreativiteten din</h2></li>
-            <li><h2>Koble til</h2></li>
-            <li><h2>Slapp av</h2></li>
-          </ul>
+        <div class="container-banner" id="home">
+          <div class="banner">
+            <h1>Slipp løs kreativiteten din</h1>
+            <h1>Koble til</h1>
+            <h1>Slapp av</h1>
+            <a href="/Booking.html" class="link">Bestill</a>
+          </div>
         </div>
-        <a href="#booking">Bestill verkstedet dit</a>
       </header>
 
-      <section>
+      <section class="introtxt">
         <p id="introtext">
-          Hos <span class="craftvilla"></span> <a href="#home"> CRAFTSVILLA </a></span> bringer vi mennesker
-          sammen gjennom kreativitet. Enten det er foreldre som knytter bånd med
-          barn, venner som utforsker nye hobbyer eller kolleger som finner
-          avslapning etter jobb – vi tilbyr gledelige, guidede kunstopplevelser
-          for alle.
+          " Hos CRAFTSVILLA bringer vi mennesker sammen gjennom kreativitet.
+          Enten det er foreldre som knytter bånd med barn, venner som utforsker
+          nye hobbyer eller kolleger som finner avslapning etter jobb – vi
+          tilbyr gledelige, guidede kunstopplevelser for alle "
         </p>
       </section>
 
-      <section>
-        <div class="container-item1" id="mosiak">
-          <p>
-            Mosiak Kunst Sett inkluderer: Ramme, A4 størrelse treplate, små
-            fargede steiner, gummi. 400NOK
-          </p>
+      <section class="verkstedet" id="verksted" >
+        <div class="boxes-3">
+          <div class="container-item1" id="mosiak">
+            <img
+              src="./Asset/pexels-viridianaor-14859095.jpg"
+              alt="Mosiak verksted"
+            />
+            <p>
+              Mosiak Kunst sett inkluderer:
+              <br />Ramme, A4 størrelse treplate, små fargede steiner, gummi.
+            </p>
+            <br />
+            <p>400NOK</p>
+            <a href="/Booking.html" class="link">Bestill</a>
+          </div>
+          <div class="container-item2" id="akvarellmaling">
+            <img
+              src="./Asset/pexels-greta-hoffman-7858865.jpg"
+              alt="Akvarellmaling"
+            />
+            <p>
+              Akvarellmaling sett inkluderer:
+              <br />
+              Ramme, akvarellpapir med designmal, akvarellfarger, pensler.
+            </p>
+            <br />
+            <p>200NOK</p>
+            <a href="/Booking.html" class="link">Bestill</a>
+          </div>
+          <div class="container-item3" id="lerret">
+            <img src="./Asset/redhat.png" alt="Lerretsmaling verkstedet" />
+            <p>
+              Lerretsmaling sett inkluderer:
+              <br />
+              Ramme, akrylpapir med designmal, akrylfarger, pensler.
+            </p>
+            <br />
+            <p>300NOK</p>
+            <a href="/Booking.html" class="link">Bestill</a>
+          </div>
         </div>
-        <div class="container-item2" id="akvarellmaling">
-          Akvarellmaling
-          <p>
-            Sett inkluderer: Ramme, akvarellpapir med designmal, akvarellfarger,
-            pensler. 200NOK
-          </p>
-        </div>
-        <div class="container-item3" id="lerret">
-          Lerretsmaling
-          <p>
-            Sett inkluderer: Ramme, akrylpapir med designmal, akrylfarger,
-            pensler. 300NOK
-          </p>
-        </div>
-        * Ny og spennende verkstedet kommer!
       </section>
 
-      <section>
-        <i class="fa-solid fa-check"></i><h3>Ingen tidligere erfaring nødvendig</h3>
-        <i class="fa-solid fa-check"></i><h3>Alt materiale inkludert</h3>
-        <i class="fa-solid fa-check"></i><h3>For alle aldre</h3>
-        <i class="fa-solid fa-check"></i><h3>Slapp av og lad opp batteriene</h3>
+      <section class="fordeler">
+        <div class="fordeler-con">
+          <div class="check-h3">
+            <i class="fa-solid fa-check"></i>
+            <h3>Ingen tidligere erfaring nødvendig</h3>
+          </div>
+          <div class="check-h3">
+            <i class="fa-solid fa-check"></i>
+            <h3>Alt materiale inkludert</h3>
+          </div>
+          <div class="check-h3">
+            <i class="fa-solid fa-check"></i>
+            <h3>For alle aldre</h3>
+          </div>
+          <div class="check-h3">
+            <i class="fa-solid fa-check"></i>
+            <h3>Slapp av og lad opp batteriene</h3>
+          </div>
+        </div>
       </section>
 
       <footer>
-        <p>Adresse</p>
-        <p>All rights reserved</p>
-        <icon>facebook</icon>
-        <icon>Instagram</icon>
-        <icon>Tiktok</icon>
+        <div class="container-foot1">
+          CRAFTVILLA <br />
+          Sverresgate 20 <br />
+          3801 <br />
+          PORSGRUNN
+        </div>
+        <div class="container-foot2" id="icon-foot">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-youtube"></a>
+        
+        </div>
+        <div class="container-foot3">
+          <p>All rights reserved CRAFTVILLA 2025</p>
+        </div>
       </footer>
-     
     </main>
   </body>
 </html>

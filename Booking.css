@@ -1,31 +1,227 @@
-*{
+:root {
+    --primary-bg-color: rgb(5, 56, 73);
+    --primary-grenn: #2b7b4a;
+    --primary-pink: #f28482;
+    --primay-yellow: #f6bd60;
+    --primary-white: #f7ede2;
+    --primary-blue: cornflowerblue;
+    --pimary--grey: rgb(209, 201, 201)
+
+  
+    --second-green: #a1eca2;
+    --second-pink: #f2bac9;
+    --second-yellow: #c7a337;
+    --second-white: #f2e2ba;
+    --second-grey: rgb(150, 146, 146);
+
+  }
+  
+  * {
     margin: 0;
     padding: 0;
-}
-.BG-container{
-    background-color: pink; 
-
-}
-.cards{
-display: flex;
-flex-flow: center center;
-justify-content: space-between;
-}
-
-img{
-    height: 120px;
-    width: 100px;
-
-
-}
-.card{
-    border: 1px solid;
-    width: 180px;
-    height: 400px;
+  }
+  html {
+    font-size: 16px;
+  }
+  body {
+    font-family: frank-new;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+  }
+  h1 {
+    font-size: 7rem;
+    color: rgb(214, 49, 195);
+    padding-top: 80px;
+    background-color: aqua;
     display: flex;
-    flex-flow: column;
-    justify-content: space-between;
+    justify-content: center;
+    font-style: italic;
+  }
+  h2 {
+    font-size: 3rem;
+    color: var(--primary-blue);
+  }
+  h3 {
+    font-size: 2rem;
+    color: var(--primary-grenn);
+  }
+  
+  .navbar {
+    background-color: var(--primary-blue);
+    opacity: 0.9;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+  }
+  a{
+  text-decoration: none;
+  color: rgb(255, 254, 254);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    display: flex;
     align-items: center;
-    margin: 20px;
+    justify-content: center;
+  }
+  .item0 {
+    background-color: var(--primary-grenn);
+  }
+  .item1 {
+    background-color: var(--primary-pink);
+  }
+  .item2 {
+    background-color: var(--primay-yellow);
+  }
+  .item3 {
+    background: var(--primary-blue);
+  }
+  .item4 {
+    background-color: var(--second-pink);
+  }
+  
+  .item0:hover{
+    background-color: #a1eca2;
+    }
+    .item1:hover{
+    background-color: #f2bac9;
+    }
+    .item2:hover{
+    background-color:#f2e2ba
+    }
+    .item3:hover{
+    background-color: aqua;
+    }
+    .item4:hover{
+    background-color:rgb(245, 39, 245)
+    }
+    
 
+
+  .verkstedet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-color: aqua;
+    ;
+  }
+  .boxes-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+
+  }
+  .container-item1,
+  .container-item2,
+  .container-item3 {
+    background-color: var(--primary-blue);
+    border: 1px;
+    border-radius: 100px 100px 0 0;
+    height: 450px;
+    margin: 30px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+  }
+  img {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+
+
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--second-pink);
+    height: 700px;
+  }
+
+  .form-items{
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    width: 400px;
+    margin: 5px;
+  }
+label{
+    height: 25px;
+    padding: 10px;
 }
+input, select, textarea{
+  min-width: 200px;
+width: 200px;
+box-sizing: border-box;
+}
+textarea{
+    resize: none;
+}
+ button{
+    padding: 10px;
+    color: white;
+    background-color: var(--primary-blue);
+    border-radius: 10px;
+    border: none;
+    margin-top: 25px ;
+ }
+
+
+
+
+
+  footer {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-white);
+    height: 100px;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-foot1, .container-foot2, .container-foot3{
+  border: solid 1px yellow;
+  height: 90px;
+  margin: 5px;
+  padding: 5px;
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  #icon-foot{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .fa {
+    padding: 7px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  
